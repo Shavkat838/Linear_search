@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(189, 180, 180);
+    padding: 10px;
+}
+.form_container{
+    width:400px;
+    height:260px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   gap:20px;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: burlywood;
+}
+
+.form{
+    width:400px;
+    height:100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.sonCont{
+    width:400px;
+    min-height:50px;
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    justify-content: center;
+    color:white;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.inpC{
+    min-height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.dizayn_conatiner{
+    width:1000px;
+    min-height:200px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kvadrat{
+    width:100px;
+    height:100px;
+    margin: 5px;
+    border:1px solid;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    border-radius:10px;
+    align-items: center;
+    color:white;
+    background-color: blue;
+    font-size: 20px;
+}
+
+.kvadrat.yellow {
+    background-color: yellow;
+}
+.kvadrat.green {
+    background-color: green;
+}
+.kvadrat.red {
+    background-color: red;
+}
+
+.animat{
+    transform: scale(1.2,1.2);
+}
